@@ -43,7 +43,8 @@ namespace Examen1_997024_61421508
                 MessageBox.Show("Imposible crear un recursos sin un procesador");
             }else{
                 c_recursos++;
-                clsRecursos nuevo_r = new clsRecursos();
+                clsRecursos nuevo_r = new clsRecursos(c_recursos);
+                lstRecursos.Items.Add(new ListViewItem(new String[] { nuevo_r.id.ToString(), nuevo_r.estadorecurso(nuevo_r.estado) }));
             }
         }
 

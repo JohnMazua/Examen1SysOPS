@@ -49,17 +49,24 @@
             this.Prioridad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.EstadoRec = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.IdRec = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.RecEstado = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NoProceso = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NoRecurso = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NoProcesador = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Posicion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lstRecursos
             // 
             this.lstRecursos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.IdRec});
+            this.IdRec,
+            this.RecEstado});
             this.lstRecursos.Location = new System.Drawing.Point(610, 47);
             this.lstRecursos.Name = "lstRecursos";
             this.lstRecursos.Size = new System.Drawing.Size(187, 185);
             this.lstRecursos.TabIndex = 3;
             this.lstRecursos.UseCompatibleStateImageBehavior = false;
+            this.lstRecursos.View = System.Windows.Forms.View.Details;
             // 
             // lstProcesosTerminados
             // 
@@ -174,7 +181,7 @@
             listViewItem1});
             this.lstProcesadores.Location = new System.Drawing.Point(238, 265);
             this.lstProcesadores.Name = "lstProcesadores";
-            this.lstProcesadores.Size = new System.Drawing.Size(186, 150);
+            this.lstProcesadores.Size = new System.Drawing.Size(201, 150);
             this.lstProcesadores.TabIndex = 14;
             this.lstProcesadores.UseCompatibleStateImageBehavior = false;
             this.lstProcesadores.View = System.Windows.Forms.View.Details;
@@ -193,11 +200,17 @@
             // 
             // listView1
             // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.NoProceso,
+            this.NoRecurso,
+            this.NoProcesador,
+            this.Posicion});
             this.listView1.Location = new System.Drawing.Point(238, 50);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(186, 182);
+            this.listView1.Size = new System.Drawing.Size(355, 182);
             this.listView1.TabIndex = 15;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // NoRec
             // 
@@ -214,6 +227,34 @@
             // IdRec
             // 
             this.IdRec.Text = "IdRec";
+            // 
+            // RecEstado
+            // 
+            this.RecEstado.Text = "RecEstado";
+            this.RecEstado.Width = 77;
+            // 
+            // NoProceso
+            // 
+            this.NoProceso.DisplayIndex = 1;
+            this.NoProceso.Text = "NoProceso";
+            this.NoProceso.Width = 94;
+            // 
+            // NoRecurso
+            // 
+            this.NoRecurso.DisplayIndex = 2;
+            this.NoRecurso.Text = "NoRecurso";
+            this.NoRecurso.Width = 75;
+            // 
+            // NoProcesador
+            // 
+            this.NoProcesador.DisplayIndex = 3;
+            this.NoProcesador.Text = "NoProcesador";
+            this.NoProcesador.Width = 80;
+            // 
+            // Posicion
+            // 
+            this.Posicion.DisplayIndex = 0;
+            this.Posicion.Text = "Posicion";
             // 
             // Form1
             // 
@@ -261,6 +302,11 @@
         private System.Windows.Forms.ColumnHeader Prioridad;
         private System.Windows.Forms.ColumnHeader EstadoRec;
         private System.Windows.Forms.ColumnHeader IdRec;
+        private System.Windows.Forms.ColumnHeader RecEstado;
+        private System.Windows.Forms.ColumnHeader NoProceso;
+        private System.Windows.Forms.ColumnHeader NoRecurso;
+        private System.Windows.Forms.ColumnHeader NoProcesador;
+        private System.Windows.Forms.ColumnHeader Posicion;
     }
 }
 
