@@ -1,0 +1,9 @@
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\bin\Debug\Examen1_997024_61421508.exe.config
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\bin\Debug\Examen1_997024_61421508.exe
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\bin\Debug\Examen1_997024_61421508.pdb
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.csprojResolveAssemblyReference.cache
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.Form1.resources
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.Properties.Resources.resources
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.csproj.GenerateResource.Cache
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.exe
+c:\users\johnny\documents\visual studio 2015\Projects\Examen1_997024_61421508\Examen1_997024_61421508\obj\Debug\Examen1_997024_61421508.pdb
